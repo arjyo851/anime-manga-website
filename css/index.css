@@ -110,6 +110,7 @@ html{
     border-radius: 150px;
     display: block;
     margin: auto;
+    margin:325px;
 }
 
 .text-big{
@@ -163,6 +164,7 @@ html{
 }
 
 .sectionTag{
+    color:lightsea;
     padding: 16px 0px;
     /* this is added new */
 }

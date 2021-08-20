@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="css/favicon.ico">
 </head>
 
 <body>
@@ -34,19 +35,19 @@
 
     <section class="background firstSection">
         <div class="box-main">
-            <div class="firstHalf">
-                <p class="text-big">DEMON SLAYER - KIMETSU NO YAIBA</p>
-                <p class="text-small">The background picture is of tanjiro kamado
+            <div class="firstHalf" >
+                <p class="text-big" onmouseover="this.style.color='red';" onmouseout="this.style.color='white';">DEMON SLAYER - KIMETSU NO YAIBA</p>
+                <p class="text-small" onmouseover="this.style.color='red';" onmouseout="this.style.color='white';">The background picture is of tanjiro kamado
                 </p>
                 <div class="buttons">
-                    <button class="btn">Subscribe</button>
-                    <button class="btn">Watch Video</button>
+                    <button class="btn" onmouseover="this.style.color='red';" onmouseout="this.style.color='white';">Subscribe</button>
+                    <button class="btn" onmouseover="this.style.color='red';" onmouseout="this.style.color='white';">Watch Video</button>
                 </div>
             </div>
 
 
             <div class="secondHalf">
-                <img src="img/logo.png" alt="furure image" style="color: wheat;">
+                <img src="img/logo.png" alt="furure image" style="color: wheat;" onmouseover="src='img/fullmetal.jpg'" onmouseout="src='img/logo.png'">
             </div>
         </div>
         
@@ -55,7 +56,7 @@
     <section class="section">
         <div class="paras">
         <p class="sectionTag text-big">Who is Tanjiro Kamado</p>
-        <p class="sectionSubTag text-small">Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō?) is the main protagonist of Demon Slayer: Kimetsu no Yaiba. He is a Demon Slayer in the Demon Slayer Corps, who joined to find a remedy to turn his sister, Nezuko Kamado, back into a human.
+        <p class="sectionSubTag text-small" ">Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō?) is the main protagonist of Demon Slayer: Kimetsu no Yaiba. He is a Demon Slayer in the Demon Slayer Corps, who joined to find a remedy to turn his sister, Nezuko Kamado, back into a human.
 
             Before he became a Demon Slayer, his family was slaughtered by the Demon King, Muzan Kibutsuji, while his younger sister, Nezuko, was turned into a Demon.</p>
             </div>
@@ -102,12 +103,13 @@
 <section class="contact" id="contact">
     <h2 class="text-center">Contact Us</h2>
     <p style="justify-content: center; display:flex;">Get more information on your favourite characters</p>
-    <div class="form">
-        <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+    <div class="form" >
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" onfocus="this.style.backgroundColor='lightseagreen'; this.style.color='yellow';" onblur="this.style.backgroundColor='white'; this.style.color='black'; fillDetails();" >
         <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone">
         <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email">
-        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your concern "></textarea>
-        <button class="btn btn-sm btn-dark">Submit</button>
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate your concern(optional)"></textarea>
+        <!-- <button class="btn btn-sm btn-dark">Submit</button> -->
+        <input type="submit" class="btn btn-sm btn-dark" value="Submit" onclick="return checkForName();">
     </div>
 </section>
  
