@@ -50,3 +50,14 @@ function checkForName(){
             return false;
       }
 }
+
+function colorchange(id) {
+
+      var background = document.getElementById(id).style.backgroundColor;
+      if (background == "rgb(255, 145, 0)") {
+          document.getElementById(id).style.background = "rgb(26,255,0)";
+      } else {
+          document.getElementById(id).style.background = "rgb(255,145,0)";
+      }
+  
+  }

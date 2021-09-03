@@ -237,3 +237,11 @@ top: 15px;
     margin:5px 3px;
 }
 
+#dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+  }
+

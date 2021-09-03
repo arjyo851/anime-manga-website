@@ -41,4 +41,8 @@
     .paras{
         padding: 0px;
     }
+
+    .secondHalf{
+        display: none;
+    }
 }
