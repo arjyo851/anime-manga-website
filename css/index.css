@@ -51,6 +51,7 @@ html{
 
 .nav-list li a:hover{
    color:yellowgreen
+   transition:all 0.3s ease;
 }
 
 .rightNav{
